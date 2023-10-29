@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/StockWorks2/static/css/main.84a5ff6e.css",
+    "main.js": "/StockWorks2/static/js/main.8ffdd470.js",
+    "static/js/787.82a9d227.chunk.js": "/StockWorks2/static/js/787.82a9d227.chunk.js",
+    "static/media/cardImg2.gif": "/StockWorks2/static/media/cardImg2.4f9186521c585d4ca5a2.gif",
+    "static/media/cardImg.gif": "/StockWorks2/static/media/cardImg.3251815d657aa9be2782.gif",
+    "index.html": "/StockWorks2/index.html",
+    "main.84a5ff6e.css.map": "/StockWorks2/static/css/main.84a5ff6e.css.map",
+    "main.8ffdd470.js.map": "/StockWorks2/static/js/main.8ffdd470.js.map",
+    "787.82a9d227.chunk.js.map": "/StockWorks2/static/js/787.82a9d227.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84a5ff6e.css",
+    "static/js/main.8ffdd470.js"
+  ]
+}
