@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@500&family=Original+Surfer&family=Pacifico&family=Poppins:wght@300;400&family=Quicksand:wght@400;700&family=Raleway:wght@400;900&family=Righteous&family=Rubik:wght@900&family=Sigmar&family=Titan+One&family=Urbanist:wght@400;900&display=swap');
+
+html {
+    background-color: #fafbfe;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(16, 16, 26);
+    padding: 2vw 2vw 2vw 2vw;
+    position: fixed;
+}
+
+.s-title {
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-size: 1.7vw;
+    color: azure;
+    margin-top: 1.5vw;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.sidenav-list {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7vw;
+}
+
+.side-btn {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-logo {
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.s-list-items {
+    display: flex;
+    gap: 1rem;
+    color: aquamarine;
+    font-family: urbanist;
+    padding: 1rem 1rem 1rem 1rem;
+    transition: 300ms;
+}
+
+.s-list-items:hover {
+    background-color: rgb(10, 133, 61);
+
+    border-radius: 5px;
+}
+
+.my-nav {
+    width: 75%;
+    margin-right: 1rem;
+    float: right;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-search {
+    font-family: urbanist;
+}
+
+.searchbox {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.urbanist {
+    font-family: urbanist;
+}
+
+
+
+.dash {
+    width: 75%;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.info-cards {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+
+.dash-card-head {
+    font-family: Poppins;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+}
+
+.dash-card-text {
+    font-family: urbanist;
+    display: flex;
+    margin-top: 1rem;
+    gap: 4px;
+}
+
+.dash-card-foot {
+    font-family: poppins;
+    margin-left: 1rem;
+    font-size: 1vw;
+}
+
+.dash-card-svg {
+    width: 30%;
+    height: auto;
+}
+
+.pandsvg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-container {
+    width: 60%;
+    height: auto;
+    float: right;
+    margin-right: 15%;
+    margin-top: 3rem;
+}
+
+.dash-table {
+    width: 75%;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 3vw;
+    overflow: hidden;
+}
+
+
+
+
+.stocks-table {
+    margin-top: 2rem;
+    width: 75%;
+    float: right;
+    margin-right: 2rem;
+    overflow: hidden;
+    font-family: urbanist;
+    margin-bottom: 2vw;
+}
+
+.stitle {
+    font-family: 'Montserrat Alternates';
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.urbanist {
+    font-family: urbanist;
+}
+
+.chart-dialog-title {
+    font-family: poppins;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.chart-dialog {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+.datatable {
+    width: 100%;
+}
+
+.datatable-component {
+    width: 75%;
+    float: right;
+    margin-right: 2rem;
+}
+
+.stocks-heading {
+    margin-top: 2rem;
+    font-family: poppins;
+    font-size: 2.5vw;
+}
+
+.chartcanvas {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+.dash-m {
+    margin-top: 2vw;
+    width: 77%;
+    float: right;
+    margin-right: 2rem;
+}
+
+.dash-m-heading {
+    font-family: poppins;
+    font-size: 1.5vw;
+
+}
+
+.grid5-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.card-m {
+    width: 15vw;
+    background-color: #fff;
+    height: auto;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-head {
+    font-family: urbanist;
+}
+
+.info-field {
+    font-family: poppins;
+    font-size: 2vw;
+}
+
+.card-value {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: urbanist;
+}
+
+.card-due {
+    font-family: raleway;
+    color: #0b0c0cad;
+}
+
+.dash-chart {
+    width: 40vw;
+    height: 55vh;
+}
+
+/* .digital-currency-chart{
+  
+} */
+.dash-chart-container {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #fff;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    height: 65vh;
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 8px;
+}
+
+.dash-chart-main {
+    width: 78vw;
+    height: 60vh;
+    background-color: #fff;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.main-chart {
+    height: 60vh;
+}
+
+.grid2 {
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+    margin-right: 5rem;
+}
+
+.grid-card1 {
+    background-color: #fff;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card-value2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: urbanist;
+}
+
+
+
+
+.content-container {
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards {
+    background-color: #ffffff;
+    padding: 15px 15px 15px 15px;
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    -webkit-animation: wobble-hor-bottom 0.8s both;
+    animation: wobble-hor-bottom 0.8s both;
+    transition: 500ms;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cards:hover {
+    cursor: pointer;
+}
+
+.card-heading {
+    font-size: 1.3vw;
+    font-family: poppins;
+
+}
+
+.card-sub-heading {
+    font-size: 1vw;
+    font-family: urbanist;
+}
+
+.card-img {
+    width: 12vw;
+    height: auto;
+}
+
+.card-link {
+    padding-right: 5px;
+    font-size: 1vw;
+    color: rgb(19, 139, 59);
+}
